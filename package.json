@@ -15,6 +15,10 @@
   ],
   "author": "Rómulo Corona",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RomuloDevelop/linked-list"
+  },
   "devDependencies": {
     "typescript": "^4.5.2"
   }
