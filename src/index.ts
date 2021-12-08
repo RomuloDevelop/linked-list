@@ -34,11 +34,13 @@ export class LinkedList<T> {
     const prevNode = this.search(index - 1)
     const newNode = new Node(value, prevNode.next)
     prevNode.next = newNode
+    return this
   }
 
   remove(index: number) {
     const prevNode = this.search(index - 1)
     prevNode.next = (prevNode.next as Node<T>).next
+    return this
   }
 
   search(index: number) {
